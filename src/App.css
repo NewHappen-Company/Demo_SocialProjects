@@ -1,0 +1,85 @@
+* {
+  background: #0E222F;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+  background-color: transparent;
+}
+
+.projects-adm-container {
+  width: 100%;
+  width: 100%;
+}
+
+.projects-adm-container .projects-adm-header {
+  display: flex;
+  padding: 2% 2%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projects-adm-container .projects-adm-header h3 {
+  font-size: 24px;
+  color: #FFF;
+  opacity: 0.7;  
+}
+
+.projects-adm-container .projects-adm-separator {
+  width: 100%;
+  padding: 0 2%;
+}
+
+.projects-adm-container .projects-adm-content {
+  width: 100%;
+  padding: 2% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects-adm-container .projects-adm-content .projects-adm-card-container {
+  width: 30%;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #08161F;
+}
+
+.projects-adm-container .projects-adm-content .projects-adm-card-container h3, h5,h6 {
+  margin-bottom: 5px;
+  color: #FFF;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.projects-adm-container .projects-adm-content .projects-adm-card-container h4 {
+  font-weight: bold;
+  color: #FFF;
+  opacity: 0.7;
+}
+
+.projects-adm-container .projects-adm-content .projects-adm-card-container .projects-adm-card {
+  margin-top: 10px;
+  background-color: #0E222F;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.projects-adm-container .projects-adm-content .projects-adm-card-container .projects-adm-card .projects-adm-actions-card {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #08161F;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #08161F;
+}
+::-webkit-scrollbar-thumb {
+  background: #0E222F;
+}
